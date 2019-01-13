@@ -653,3 +653,6 @@ img.userimg {max-width: 100%}
 a.ul[href^="https://bitcointalk.org/"]:hover {color:green !important}
 a.ul[href^="http://bitcointalk.org/"]:hover {color:green !important}
 img.unloaded[alt=""]{background-image:url("/Themes/throb.gif"); background-repeat:no-repeat;min-width:8px;min-height:8px;display:inline-block}
+.editplain {display:none}
+@media(pointer:none) { .editplain {display:inline}}
+@media(pointer:coarse) { .editplain {display:inline}}
