@@ -1,0 +1,3 @@
+[submodule "doc/a-kind-of-RFC"]
+	path = doc/a-kind-of-RFC
+	url = https://github.com/ifinta/a-kind-of-RFC
