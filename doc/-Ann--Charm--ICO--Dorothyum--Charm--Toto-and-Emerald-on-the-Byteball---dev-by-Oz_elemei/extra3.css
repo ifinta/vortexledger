@@ -1,0 +1,362 @@
+.swcpoker-inl-rel {
+	position: relative;
+	display: inline-block;
+}
+
+.swcpoker-ad {    
+    width: 900px;
+    max-width: 900px;
+    min-width: 900px;
+    height: 42px;
+    max-height: 42px;
+    background: #053514;
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace
+}
+
+.swcpoker-link {
+    position: absolute;
+    width: 100%;
+    height: 42px;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.swcpoker-logobox {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    height: 34px;
+    width: 34px;
+    float: left;
+    text-align: center;
+    bottom: 1px;	
+}
+
+.swcpoker-logo {
+    background: url('data:image/png;base64,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');  
+    height: 36px;
+    width: 36px;
+    background-size: 36px;
+    transition: transform 0.3s ease-out, -o-transform 0.3s ease-out, -moz-transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out, -o-transform 0.3s ease-out, -moz-transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    -moz-transition: transform 0.3s ease-out, -o-transform 0.3s ease-out, -moz-transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    -webkit-transition: transform 0.3s ease-out, -o-transform 0.3s ease-out, -moz-transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+}
+
+.swcpoker-ad:hover .swcpoker-logo {
+    transform: scale(0.90, 0.90);
+    -o-transform: scale(0.90, 0.90);
+    -moz-transform: scale(0.90, 0.90);
+    -webkit-transform: scale(0.90, 0.90);
+}
+
+.swcpoker-frame-inside {
+	border: solid;
+    border-width: 2px 0px 2px 0px;
+    border-color: #ffffff;
+    display: block;
+    position: absolute;
+    width: 836px;
+    height: 34px;
+    top: 2px;
+    left: 0px;
+    padding-right: 10px;
+    padding-left: 54px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.swcpoker-frame-left {
+    line-height: 34px;
+    width: 260px;
+}
+
+.swcpoker-frame-left-2 {
+    line-height: 34px;
+    width: 170px;
+}
+
+.swcpoker-mar-rig {
+	margin-right: 6px;
+}
+
+.swcpoker-mar-lef {
+	margin-left: 6px;
+}
+
+.swcpoker-frame-left-3 {
+    line-height: 34px;
+    width: 200px;
+}
+
+.swcpoker-frame-clubs {
+	font-size: 30px;
+	color: #e8b51f;	
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 0 0 2px #000;
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transition: transform 0.4s ease-out, -o-transform 0.4s ease-out, -moz-transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+    -o-transition: transform 0.4s ease-out, -o-transform 0.4s ease-out, -moz-transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+    -moz-transition: transform 0.4s ease-out, -o-transform 0.4s ease-out, -moz-transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+    -webkit-transition: transform 0.4s ease-out, -o-transform 0.4s ease-out, -moz-transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+}
+
+.swcpoker-frame-text-top {
+	font-size: 15px;
+    color: #e8b520;
+    line-height: 17px;
+    margin-top: 3px;	
+	transition: color 0.4s ease-out;
+    -o-transition:  color 0.4s ease-out;
+    -moz-transition: color 0.4s ease-out;
+    -webkit-transition: color 0.4s ease-out;
+}
+
+.swcpoker-frame-text-bottom {
+	font-size: 11px;
+    color: #fff;
+    line-height: 13px;
+	transition: color 0.4s ease-out;
+    -o-transition:  color 0.4s ease-out;
+    -moz-transition: color 0.4s ease-out;
+    -webkit-transition: color 0.4s ease-out;
+}
+
+.swcpoker-tex-lef {
+    text-align: left;
+}
+
+.swcpoker-tex-rig {
+    text-align: right;
+}
+
+
+.swcpoker-flo-rig {
+	float: right;
+}
+
+.swcpoker-flo-lef {
+	float: left;
+}
+
+.swcpoker-frame-text-big-frame {
+    right: 10px;
+    position: absolute;
+    font-weight: 800;
+    color: #fff;
+    line-height: 26px;
+    margin-top: 4px;
+    font-size: 14px;
+    padding-left: 10px;
+    width: 185px;
+    padding-right: 10px;
+    text-align: center;
+    height: 25px;
+    background: #01532c;
+    border-right: 2px solid #e8b51f;
+    border-bottom: 2px solid #e8b51f;
+    transition: background 0.4s ease-out, border-right 0.4s ease-out, border-bottom 0.4s ease-out;
+    -o-transition:  background 0.4s ease-out, border-right 0.4s ease-out, border-bottom 0.4s ease-out;
+    -moz-transition: background 0.4s ease-out, border-right 0.4s ease-out, border-bottom 0.4s ease-out;
+    -webkit-transition: background 0.4s ease-out, border-right 0.4s ease-out, border-bottom 0.4s ease-out;
+}
+
+.swcpoker-frame-text-big {
+	opacity: 1;
+	width: 185px;
+	position: absolute;	
+	transition: opacity 0.4s ease-out;
+    -o-transition:  opacity 0.4s ease-out;
+    -moz-transition: opacity 0.4s ease-out;
+    -webkit-transition: opacity 0.4s ease-out;
+}
+
+.swcpoker-frame-text-big-2 {
+	opacity: 0;
+	width: 185px;
+	position: absolute;
+	transition: opacity 0.4s ease-out;
+    -o-transition:  opacity 0.4s ease-out;
+    -moz-transition: opacity 0.4s ease-out;
+    -webkit-transition: opacity 0.4s ease-out;
+}
+
+.swcpoker-ad:hover .swcpoker-frame-text-big {
+	opacity: 0;
+}
+
+.swcpoker-ad:hover .swcpoker-frame-text-big-2 {
+	opacity: 1;
+}
+
+.swcpoker-ad:hover .swcpoker-frame-text-big-frame {
+    background: #e8b520;
+    border-right: 2px solid #1b5f30;
+    border-bottom: 2px solid #1b5f30;	
+}
+
+
+.swcpoker-frame-clubs-2, .swcpoker-frame-text-top-2, .swcpoker-frame-text-bottom-2 {
+	-o-transition-delay: 0.2s;
+	-webkit-transition-delay: 0.2s;
+	-moz-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+.swcpoker-frame-clubs-3, .swcpoker-frame-text-top-3, .swcpoker-frame-text-bottom-3 {
+	-o-transition-delay: 0.4s;
+	-webkit-transition-delay: 0.4s;
+	-moz-transition-delay: 0.4s;
+	transition-delay: 0.4s;
+}
+
+.swcpoker-ad:hover .swcpoker-frame-clubs {
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+}
+
+.swcpoker-ad:hover .swcpoker-frame-text-bottom {
+	color: #e8b520;
+}
+.swcpoker-ad:hover .swcpoker-frame-text-top {
+	color: #fff;
+}
+.denarium {
+    display: block;
+    position: relative;
+    height: 42px;
+    width: 650px;
+    overflow: hidden;
+    text-overflow: clip;
+    text-align: center;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial,Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.denarium_yellow {
+    position: absolute;
+    left: -54px;
+    top: -11px;
+    width: 306px;
+    height: 75px;
+    background-image: radial-gradient(circle farthest-corner at 50% 50%, rgb(203, 21, 23) 0%, rgb(203, 21, 23) 55%, rgb(203, 21, 23) 67%);
+}
+
+.denarium_black {
+    position: absolute;
+    left: 177px;
+    top: -14px;
+    width: 473px;
+    height: 70px;
+    background-image: linear-gradient(89deg, rgb(29, 29, 29) 0%, rgb(39, 39, 39) 100%);
+    border-radius: 70px 0 0;
+}
+
+.denarium_name {
+    position: absolute;
+    left: -2px;
+    top: 2px;
+    width: 198px;
+    height: 27px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.38);
+}
+
+.denarium_phys {
+    position: absolute;
+    left: 15px;
+    top: 26px;
+    width: 166px;
+    height: 15px;
+    font-size: 8px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.denarium_perf {
+    position: absolute;
+    left: 207px;
+    top: 11px;
+    width: 366px;
+    height: 27px;
+    font-family: Arial Black,Gadget,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+}
+
+.denarium_buy {
+    position: absolute;
+    left: 219px;
+    top: 1px;
+    width: 340px;
+    height: 15px;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    color: white;
+}
+
+.denarium_we {
+    position: absolute;
+    left: 219px;
+    top: 29px;
+    width: 340px;
+    height: 13px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: rgb(151, 151, 151);
+}
+
+.denarium_ring {
+    position: absolute;
+    left: 589px;
+    top: -6px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid rgb(231, 184, 24);
+}
+
+.denarium_d {
+    position: absolute;
+    left: 585px;
+    top: 4px;
+    width: 43px;
+    height: 43px;
+    font-size: 28px;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
+    transform: translate(0, 0) rotate(0deg) scale(-1, 0.97725);
+}
+
+.denarium_b {
+    position: absolute;
+    left: 604px;
+    top: 4px;
+    width: 43px;
+    height: 43px;
+    font-size: 28px;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
+}
