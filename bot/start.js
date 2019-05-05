@@ -16,7 +16,7 @@ function helptext(from_address, device) {
 								 "\n"+
 								 "I am actually under development.\n"+
 								 "\n"+
-								 "The blog of my dev's you find ((a little later...)) in 'gun.db'.\n"
+								 "The blog of my dev's you find ((a little later...)) in 'gun.db'.\n"+
 								 "If you wish open it, just ask me: [browse blog](command:browse blog).\n"+
 								 "If you wish see this short list of possibilities, chat me the command [help](command:help).");
 }
