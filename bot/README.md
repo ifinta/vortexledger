@@ -16,7 +16,8 @@ node start.js
 ```
 Note the line that it prints on start-up:
 ```
-====== my pairing code: Aj2No4YghYNcHjzPqobfp5gSJ4jyaBqnhF2dK7lEsMZ+@obyte.org/bb#*
+====== my pairing code: Awp4RBmyzzbTOyyWeRt5TVxB6BORDaQ9C9bNSsS/ohnG@obyte.org/bb#*
 ```
-Copy this pairing code to your O<sub>byte</sub> wallet: Chat tab, Add a new device, Accept invitation, paste the code, ready to chat.
+Copy this pairing code to your O<sub>byte</sub> wallet: Chat tab, Add a new device, Accept invitation, paste the code, ready to chat. 
+And you can send some bytes, Charm, KISSes, THANKs, ... if you wish, to donate um :) and our development.
 
