@@ -18,7 +18,7 @@ function helptext(from_address, device) {
 								 "\n"+
 								 "The blog of my dev's you find ((a little later...)) in 'gun.db'.\n"+
 								 "If you wish open it, just ask me: [browse blog](command:browse blog).\n"+
-								 "If you wish see this short list of possibilities, chat me the command [help](command:help).");
+								 "If you wish see this short list of possibilities, chat me the command: [help](command:help).");
 }
 
 
@@ -54,7 +54,7 @@ eventBus.once('headless_wallet_ready', () => {
 			device.sendMessageToDevice(from_address, 'text', "Please click [here](" + embeddedPage + ")");
 		}
 
-		if (text.match(/^[Hh]elp/)) {
+		if (text.match(/^[Hh]elp|^[Hh]i/)) {
 			result = true;
 			helptext(from_address, device);
 		}
