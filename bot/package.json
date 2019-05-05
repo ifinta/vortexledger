@@ -1,0 +1,13 @@
+{
+	"name": "um",
+	"version": "0.0.1",
+	"description": "'um' bot for our distributed P2P treasuresystem, based on cells and auctions, doing market based tokenization on different things, with help of Charm, KISSes, THANKs, ...",
+	"main": "start.js",
+	"repository": "https://github.com/ifinta/vortexledger",
+	"author": "ifinta",
+	"license": "GITHUB UNLICENCE. (copyleft) by ifinta from 03.12.2016 up to now...",
+	"dependencies": {
+		"ocore": "git+https://github.com/byteball/ocore.git",
+		"headless-obyte": "git+https://github.com/byteball/headless-obyte.git"
+	}
+}

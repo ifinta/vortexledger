@@ -1,0 +1,1 @@
+*/20 * * * * cd um; node check_daemon.js 1>>~/.config/um/check_daemon.log 2>>~/.config/um/check_daemon.err
