@@ -16,8 +16,9 @@ function helptext(from_address, device) {
 								 "\n"+
 								 "I am actually under development.\n"+
 								 "\n"+
-								 "The blog of my dev's you find ((a little later...)) in 'gun.db'. If you wish open it, just ask me: [browse blog](command:browse blog)\n"+
-								 "If you wish see this short list of possibilities, just ask me: [help](command:help)");
+								 "The blog of my dev's you find ((a little later...)) in 'gun.db'.\n"
+								 "If you wish open it, just ask me: [browse blog](command:browse blog).\n"+
+								 "If you wish see this short list of possibilities, chat me the command [help](command:help).");
 }
 
 
@@ -59,7 +60,7 @@ eventBus.once('headless_wallet_ready', () => {
 		}
 
 		if (!text.match(/^You said/) && !result)
-			device.sendMessageToDevice(from_address, 'text', "I don't know, what to do. You said: " + text);
+			device.sendMessageToDevice(from_address, 'text', "I don't know, what to do. You said: " + text + "\nShould I show you the [help](command:help)?");
 	});
 
 });
