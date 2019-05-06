@@ -49,7 +49,7 @@ eventBus.once('headless_wallet_ready', () => {
 
 		if (text.match(/^[Bb]rowse blog/)) {
 			result = true;
-			device.sendMessageToDevice(from_address, 'text', "Please click http://vortexledger.org");
+			device.sendMessageToDevice(from_address, 'text', "Please click http://www.vortexledger.org");
 		}
 
 		if (text.match(/^[Hh][e]lp/)) {
