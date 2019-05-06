@@ -46,11 +46,10 @@ eventBus.once('headless_wallet_ready', () => {
 
 		var result = false;
 		const device = require('ocore/device.js');
-		var vortexledgerPage = 'http://vortexledger.org';
 
 		if (text.match(/^[Bb]rowse blog/)) {
 			result = true;
-			device.sendMessageToDevice(from_address, 'text', "Please click [here](" + vortexledgerPage + ")");
+			device.sendMessageToDevice(from_address, 'text', "Please click http://vortexledger.org";
 		}
 
 		if (text.match(/^[Hh][e]lp/)) {
