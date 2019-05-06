@@ -54,7 +54,7 @@ eventBus.once('headless_wallet_ready', () => {
 			device.sendMessageToDevice(from_address, 'text', "Please click [here](" + embeddedPage + ")");
 		}
 
-		if (text.match(/^[Hh]elp/) || text.match(/^[Hh]i/)) {
+		if (text.match(/^[Hh][ei].l.p/)) {
 			result = true;
 			helptext(from_address, device);
 		}
