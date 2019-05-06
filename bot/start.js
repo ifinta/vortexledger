@@ -46,12 +46,11 @@ eventBus.once('headless_wallet_ready', () => {
 
 		var result = false;
 		const device = require('ocore/device.js');
-		var embeddedPage = 'data:application/octet-stream;base64,PGh0bWw+CiAgPGJvZHk+CiAgICA8aDE+SGVsbG8gV29ybGQhPC9oMT4KICAgIDxzY3JpcHQgc3JjPSJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvbnBtL2d1bi9leGFtcGxlcy9qcXVlcnkuanMiPjwvc2NyaXB0PgogICAgPHNjcmlwdCBzcmM9Imh0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9ucG0vZ3VuL2d1bi5qcyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L25wbS9ndW4vc2VhLmpzIj48L3NjcmlwdD4KICAgIDxzY3JpcHQgc3JjPSJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvbnBtL2d1bi9saWIvd2VicnRjLmpzIj48L3NjcmlwdD4KICAgIDxzY3JpcHQ+CiAgICAvLyBkQXBwIGNvZGUgd2lsbCBnbyBoZXJlIQogICAgPC9zY3JpcHQ+CiAgPC9ib2R5Pgo8L2h0bWw+Cg==';
-
+		var vortexledgerPage = 'http://vortexledger.org';
 
 		if (text.match(/^[Bb]rowse blog/)) {
 			result = true;
-			device.sendMessageToDevice(from_address, 'text', "Please click [here](" + embeddedPage + ")");
+			device.sendMessageToDevice(from_address, 'text', "Please click [here](" + vortexledgerPage + ")");
 		}
 
 		if (text.match(/^[Hh][e]lp/)) {
