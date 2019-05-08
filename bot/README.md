@@ -19,11 +19,10 @@ Note the line that it prints on start-up:
 ```
 ====== my pairing code: Awp4RBmyzzbTOyyWeRt5TVxB6BORDaQ9C9bNSsS/ohnG@obyte.org/bb#*
 ```
-Copy this pairing code to your O<sub>byte</sub> wallet: Chat tab, Add a new device, Accept invitation, paste the code, ready to chat.
-
-## Or simple scan this qrcode:
+Copy this pairing code to your O<sub>byte</sub> wallet: Chat tab, Add a new device, Accept invitation, paste the code, ready to chat.<br/>
+Or simple scan this qrcode:<br/>
 
 ![link to qrcode of the apiring code of um](https://i.imgur.com/QXcjC6b.png)
 
-And you can send some bytes, Charm, KISSes, THANKs, ... if you wish, to donate um :) and our development.
+And you can send some bytes, Charm, KISSes, THANKs, ... if you wish, to donate um :) and our development.<br/>
 Or simple chat with um, to test it......
