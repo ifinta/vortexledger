@@ -21,4 +21,5 @@ Note the line that it prints on start-up:
 Copy this pairing code to your O<sub>byte</sub> wallet: Chat tab, Add a new device, Accept invitation, paste the code, ready to chat. 
 And you can send some bytes, Charm, KISSes, THANKs, ... if you wish, to donate um :) and our development.
 
+Or simple scan this qrcode:
 ![Or simple scan this qrcode:](https://i.imgur.com/QXcjC6b.png)
