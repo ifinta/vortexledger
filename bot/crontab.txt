@@ -1,1 +1,1 @@
-*/20 * * * * cd um; node check_daemon.js 1>>~/.config/um/check_daemon.log 2>>~/.config/um/check_daemon.err
+*/20 * * * * cd vortexledger/bot; node check_daemon.js 1>>~/.config/um/check_daemon.log 2>>~/.config/um/check_daemon.err
